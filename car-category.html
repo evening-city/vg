@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="page__body">
+    
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="btn-reset header__filter">
+                        <span></span>
+                    </button>
+                    <nav class="header__menu">
+                        <ul class="header__list list-reset">
+                            <li class="header__item"><a href="./work.html" class="header__link">
+                                <img src="./img/work.svg" alt="work">
+                                Работа</a></li>
+                            <li class="header__item"><a href="./estate.html" class="header__link">
+                                <img src="./img/home.svg" alt="home">
+                                Недвижимость</a></li>
+                            <li class="header__item"><a href="./news.html" class="header__link">
+                                <img src="./img/news.svg" alt="news">
+                                Новости</a></li>
+                            <li class="header__item active"><a href="./car.html" class="header__link">
+                                <img src="./img/auto.svg" alt="auto">
+                                Авто</a>
+                            </li>
+                            <li class="header__item"><a href="./account.html" class="header__link">
+                                <img src="./img/account.svg" alt="auto">
+                                Аккаунт</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__wrapper">
+                        <a href="./account.html" class="header__avatar">
+                            <img src="img/avatar.svg" alt="avatar">
+                        </a>
+                        <div class="header__sub-menu sub-menu">
+                            <div class="sub-menu__top">
+                                <div class="sub-menu__stars">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                </div>
+                                <p class="sub-menu__reviews">Нет отзывов</p>
+                            </div>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Мои объявления</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Мои отзывы</a></li>
+                                <li><a href="#">Избранное</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Сообщения</a></li>
+                                <li><a href="#">Уведомления</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Управление профилем</a></li>
+                                <li><a href="#">Защита профиля</a></li>
+                                <li><a href="#">Настройки</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <section class="car section-top">
+                <div class="car__container container">
+                    <a href="car.html" class="news-page__back page-back">
+                        <img src="./img/back.svg" alt="back">Вернуться на главную
+                    </a>
+                    <div class="car__type filter-modal">
+                        <div class="filter-modal__top">
+                            <p>Применение фильтров</p>
+                            <button class="filter__close">Закрыть модальное окно</button>
+                        </div>
+                        <div class="car__type-body">
+                            <button type="button" class="btn-reset btn">Легковые авто</button>
+                            <button type="button" class="btn-reset btn">Селект</button>
+                            <button type="button" class="btn-reset btn">Грузовики</button>
+                            <button type="button" class="btn-reset btn">Смотреть все категории
+                                <img src="img/arrow-up-thin.svg" alt="img" width="21" heigth="18" loading="lazy">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="car-category">
+                <div class="car-category__container container">
+                    <h2 class="car__title">Продажа грузового транспорта в Челябинске</h2>
+                    <div class="car-category__wrapper">
+                        <div class="car__brand">
+                            <div class="car__top">
+                                <h3 class="car__title">Популярные грузовики</h3>
+                                <button type="btn" class="btn-reset car__show-all">Все</button>
+                            </div>
+                            <div class="car__filter">
+                                <button type="button" class="btn-reset">Audi <span>5 056</span></button>
+                                <button type="button" class="btn-reset">BMW <span>5 056</span></button>
+                                <button type="button" class="btn-reset">CHANGAN <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Chery <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Chevrolet <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Ford <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Geely <span>5 056</span></button>
+                                <button type="button" class="btn-reset">HAVAL <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Hyundai <span>5 056</span></button>
+                                <button type="button" class="btn-reset">JAECOO <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Kia <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Land Rover <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Lexus <span>5 056</span></button>
+                                <button type="button" class="btn-reset">LiXiang <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Mazda <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Mersedes-Benz <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Mitsubishi <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Nissan <span>5 056</span></button>
+                                <button type="button" class="btn-reset">OMODA <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Opel <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Porsche <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Renault <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Skoda <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Solaris <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Toyota <span>5 056</span></button>
+                                <button type="button" class="btn-reset">Volksvagen <span>5 056</span></button>
+                                <button type="button" class="btn-reset">LADA (Ваз) <span>5 056</span></button>
+                                <button type="button" class="btn-reset">ГАЗ <span>5 056</span></button>
+                            </div>
+                        </div>
+                        <div class="car-category__sort">
+                            <img src="img/sort.svg" alt="img" width="21" heigth="18" loading="lazy">Сортировка
+                        </div>
+                        <div class="car-category__columns">
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                            <a href="#" class="car-category__column">
+                                <div class="car-category__image">
+                                    <img src="img/car-c01.webp" alt="img" width="383" heigth="278" loading="lazy">
+                                </div>
+                                <div class="car-category__item">
+                                    <div class="car-category__top">
+                                        <h4 class="car-category__name">Самовызов 34м, 2005</h4>
+                                        <div class="car-category__star">
+                                            <img src="img/star-yellow.svg" alt="img" width="39" heigth="39" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <div class="car-category__price">6 000 000 НДС</div>
+                                    <div class="car-category__info">Г⁠/⁠П 35 т, кузов 34 м<sup>³</sup>, 8×4, 420 л.с.
+                                        Екатеринбург</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="mobile-footer-menu">
+            <div class="header__body">
+
+                <nav class="header__menu">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="./work.html" class="header__link">
+                            <img src="./img/work.svg" alt="work">
+                            Работа</a></li>
+                        <li class="header__item"><a href="./estate.html" class="header__link">
+                            <img src="./img/home.svg" alt="home">
+                            Недвижимость</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">
+                            <img src="./img/news.svg" alt="news">
+                            Новости</a></li>
+                        <li class="header__item"><a href="./car.html" class="header__link">
+                            <img src="./img/auto.svg" alt="auto">
+                            Авто</a>
+                        </li>
+                        <li class="header__item"><a href="./account.html" class="header__link">
+                            <img src="./img/account.svg" alt="auto">
+                            Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/srcipt.js" type="module"></script>
+</body>
+</html>

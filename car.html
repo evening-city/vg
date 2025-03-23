@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="page__body">
+    
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="btn-reset header__filter">
+                        <span></span>
+                    </button>
+                    <nav class="header__menu">
+                        <ul class="header__list list-reset">
+                            <li class="header__item"><a href="./work.html" class="header__link">
+                                <img src="./img/work.svg" alt="work">
+                                Работа</a></li>
+                            <li class="header__item"><a href="./estate.html" class="header__link">
+                                <img src="./img/home.svg" alt="home">
+                                Недвижимость</a></li>
+                            <li class="header__item"><a href="./news.html" class="header__link">
+                                <img src="./img/news.svg" alt="news">
+                                Новости</a></li>
+                            <li class="header__item active"><a href="./car.html" class="header__link">
+                                <img src="./img/auto.svg" alt="auto">
+                                Авто</a>
+                            </li>
+                            <li class="header__item"><a href="./account.html" class="header__link">
+                                <img src="./img/account.svg" alt="auto">
+                                Аккаунт</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__wrapper">
+                        <a href="./account.html" class="header__avatar">
+                            <img src="img/avatar.svg" alt="avatar">
+                        </a>
+                        <div class="header__sub-menu sub-menu">
+                            <div class="sub-menu__top">
+                                <div class="sub-menu__stars">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                </div>
+                                <p class="sub-menu__reviews">Нет отзывов</p>
+                            </div>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Мои объявления</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Мои отзывы</a></li>
+                                <li><a href="#">Избранное</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Сообщения</a></li>
+                                <li><a href="#">Уведомления</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Управление профилем</a></li>
+                                <li><a href="#">Защита профиля</a></li>
+                                <li><a href="#">Настройки</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <section class="car section-top">
+                <div class="car__container container">
+                    <a href="main.html" class="news-page__back page-back">
+                        <img src="./img/back.svg" alt="back">Вернуться на главную
+                    </a>
+                    <div class="car__type filter-modal">
+                        <div class="filter-modal__top">
+                            <p>Применение фильтров</p>
+                            <button class="filter__close">Закрыть модальное окно</button>
+                        </div>
+                        <div class="car__type-body">
+                            <button type="button" class="btn-reset btn">Легковые авто</button>
+                            <button type="button" class="btn-reset btn">Селект</button>
+                            <button type="button" class="btn-reset btn">Грузовики</button>
+                            <button type="button" class="btn-reset btn">Смотреть все категории
+                                <img src="img/arrow-up-thin.svg" alt="img" width="21" heigth="18" loading="lazy">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="car__brand">
+                        <div class="car__top">
+                            <h2 class="car__title">Популярные легковые автомобили</h2>
+                            <button type="btn" class="btn-reset car__show-all">Все</button>
+                        </div>
+                        <div class="car__filter">
+                            <button type="button" class="btn-reset">Audi <span>5 056</span></button>
+                            <button type="button" class="btn-reset">BMW <span>5 056</span></button>
+                            <button type="button" class="btn-reset">CHANGAN <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Chery <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Chevrolet <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Ford <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Geely <span>5 056</span></button>
+                            <button type="button" class="btn-reset">HAVAL <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Hyundai <span>5 056</span></button>
+                            <button type="button" class="btn-reset">JAECOO <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Kia <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Land Rover <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Lexus <span>5 056</span></button>
+                            <button type="button" class="btn-reset">LiXiang <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Mazda <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Mersedes-Benz <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Mitsubishi <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Nissan <span>5 056</span></button>
+                            <button type="button" class="btn-reset">OMODA <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Opel <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Porsche <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Renault <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Skoda <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Solaris <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Toyota <span>5 056</span></button>
+                            <button type="button" class="btn-reset">Volksvagen <span>5 056</span></button>
+                            <button type="button" class="btn-reset">LADA (Ваз) <span>5 056</span></button>
+                            <button type="button" class="btn-reset">ГАЗ <span>5 056</span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="car-catalog section-top">
+                <div class="car-catalog__container container">
+                    <div class="car-catalog__wrapper">
+                        <div class="car-catalog__columns">
+                            <h3 class="car-catalog__title caption">Коммерческий транспорт</h3>
+                           <div class="car-catalog__body">
+                                <div class="car-catalog__column car-catalog__column-big">
+                                    <h3 class="car-catalog__title caption">Коммерческий транспорт</h3>
+                                    <div class="car-catalog__item">
+                                        <div class="car-catalog__image">
+                                            <img src="img/car-c01.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                        </div>
+                                        <ul class="car-catalog__list list-reset">
+                                            <li><a href="#">Грузовики</a></li>
+                                            <li><a href="#">Тягочи</a></li>
+                                            <li><a href="#">Прицепы</a></li>
+                                            <li><a href="#">Сельхозтехника</a></li>
+                                            <li><a href="#">Строительная техника</a></li>
+                                            <li><a href="#">Экскаваторы</a></li>
+                                            <li><a href="#">Подгрузчики</a></li>
+                                            <li><a href="#">Бульдозеры</a></li>
+                                            <li><a href="#">Автокраны</a></li>
+                                            <li><a href="#">Техника для лесозаготовки</a></li>
+                                            <li><a href="#">Коммунальная техника</a></li>
+                                            <li><a href="#">Навесное оборудование</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="car-catalog__column car-catalog__column-small">
+                                    <div class="car-catalog__item">
+                                        <div class="car-catalog__image">
+                                            <img src="img/car-c02.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                        </div>
+                                        <ul class="car-catalog__list list-reset">
+                                            <li><a href="#">Легкий коммерческий транспорт </a></li>
+                                            <li><a href="#">Автобусы</a></li>
+                                            <li><a href="#">Автодома</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="car-catalog__columns">   
+                           <div class="car-catalog__body">
+                                <div class="car-catalog__column">
+                                    <h3 class="car-catalog__title caption">Транспортные услуги</h3>
+                                    <div class="car-catalog__item">
+                                        <div class="car-catalog__image">
+                                            <img src="img/car-c03.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                        </div>
+                                        <ul class="car-catalog__list list-reset">
+                                            <li><a href="#">Автосервисы</a></li>
+                                            <li><a href="#">Аренда авто </a></li>
+                                            <li><a href="#">Аренда спецтехники</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="car-catalog__column">
+                                    <h3 class="car-catalog__title caption">Запчасти</h3>
+                                    <div class="car-catalog__item">
+                                        <div class="car-catalog__image">
+                                            <img src="img/car-c04.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                        </div>
+                                        <ul class="car-catalog__list list-reset">
+                                            <li><a href="#">Шины и диски</a></li>
+                                            <li><a href="#">Запчасти для авто</a></li>
+                                            <li><a href="#">Аудио и видео техника</a></li>
+                                            <li><a href="#">Аксессуары</a></li>
+                                            <li><a href="#">Тюнинг</a></li>
+                                            <li><a href="#">Запчасти для грузовиков и спецтехники </a></li>
+                                            <li><a href="#">Запчасти для мототехники</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="car-catalog__columns">   
+                            <div class="car-catalog__body">
+                                 <div class="car-catalog__column">
+                                     <h3 class="car-catalog__title caption">Водный транспорт</h3>
+                                     <div class="car-catalog__item">
+                                         <div class="car-catalog__image">
+                                             <img src="img/car-c05.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                         </div>
+                                         <ul class="car-catalog__list list-reset">
+                                             <li><a href="#">Моторные лодки и моторы</a></li>
+                                             <li><a href="#">Катера и яхты</a></li>
+                                             <li><a href="#">Гидроциклы</a></li>
+                                             <li><a href="#">Вёсельные лодки</a></li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                                 <div class="car-catalog__column">
+                                     <h3 class="car-catalog__title caption">Мотоциклы</h3>
+                                     <div class="car-catalog__item">
+                                         <div class="car-catalog__image">
+                                             <img src="img/car-c06.webp" alt="img" width="770" heigth="346" loading="lazy">
+                                         </div>
+                                         <ul class="car-catalog__list list-reset">
+                                             <li><a href="#">Мотоциклы</a></li>
+                                             <li><a href="#">Мопеды и скутеры</a></li>
+                                             <li><a href="#">Снегоходы</a></li>
+                                             <li><a href="#">Квадроциклы и багги</a></li>
+                                             <li><a href="#">Вездеходы</a></li>
+                                             <li><a href="#">Картинг</a></li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="news__columns">
+                        <h2 class="news__title caption">Рекомендации для вас</h2>
+                        <div class="news__column">
+                            <div class="news__image car-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="car-pagination swiper-pagination"></div>
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Галичанин КС-55729-5B-3, 2024 <div>18 300 000 ₽ с НДС </div></h3>
+                                <p class="news__text">Челябинск, р-н Ленинский район</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>Пробег 1000 м</li>
+                                        <li>НДС</li>
+                                        <li>В рассрочку</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <button type="button" class="news__stars btn-reset">
+                                            <img src="img/star-orange.svg" alt="star" width="39" heigth="39" loading="lazy">
+                                        </button>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__column">
+                            <div class="news__image car-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="car-pagination swiper-pagination"></div>
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Галичанин КС-55729-5B-3, 2024 <div>18 300 000 ₽ с НДС </div></h3>
+                                <p class="news__text">Челябинск, р-н Ленинский район</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>Пробег 1000 м</li>
+                                        <li>НДС</li>
+                                        <li>В рассрочку</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <button type="button" class="news__stars btn-reset">
+                                            <img src="img/star-orange.svg" alt="star" width="39" heigth="39" loading="lazy">
+                                        </button>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__column">
+                            <div class="news__image car-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="car-pagination swiper-pagination"></div>
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Галичанин КС-55729-5B-3, 2024 <div>18 300 000 ₽ с НДС </div></h3>
+                                <p class="news__text">Челябинск, р-н Ленинский район</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>Пробег 1000 м</li>
+                                        <li>НДС</li>
+                                        <li>В рассрочку</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <button type="button" class="news__stars btn-reset">
+                                            <img src="img/star-orange.svg" alt="star" width="39" heigth="39" loading="lazy">
+                                        </button>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <div class="mobile-footer-menu">
+            <div class="header__body">
+
+                <nav class="header__menu">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="./work.html" class="header__link">
+                            <img src="./img/work.svg" alt="work">
+                            Работа</a></li>
+                        <li class="header__item"><a href="./estate.html" class="header__link">
+                            <img src="./img/home.svg" alt="home">
+                            Недвижимость</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">
+                            <img src="./img/news.svg" alt="news">
+                            Новости</a></li>
+                        <li class="header__item"><a href="./car.html" class="header__link">
+                            <img src="./img/auto.svg" alt="auto">
+                            Авто</a>
+                        </li>
+                        <li class="header__item"><a href="./account.html" class="header__link">
+                            <img src="./img/account.svg" alt="auto">
+                            Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/srcipt.js" type="module"></script>
+</body>
+</html>

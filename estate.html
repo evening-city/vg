@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="page__body">
+    
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <button type="button" class="btn-reset header__filter">
+                        <span></span>
+                    </button>
+                    <nav class="header__menu">
+                        <ul class="header__list list-reset">
+                            <li class="header__item"><a href="./work.html" class="header__link">
+                                <img src="./img/work.svg" alt="work">
+                                Работа</a></li>
+                            <li class="header__item active"><a href="./estate.html" class="header__link">
+                                <img src="./img/home.svg" alt="home">
+                                Недвижимость</a></li>
+                            <li class="header__item"><a href="./news.html" class="header__link">
+                                <img src="./img/news.svg" alt="news">
+                                Новости</a></li>
+                            <li class="header__item"><a href="./car.html" class="header__link">
+                                <img src="./img/auto.svg" alt="auto">
+                                Авто</a>
+                            </li>
+                            <li class="header__item"><a href="./account.html" class="header__link">
+                                <img src="./img/account.svg" alt="auto">
+                                Аккаунт</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__wrapper">
+                        <a href="./account.html" class="header__avatar">
+                            <img src="img/avatar.svg" alt="avatar">
+                        </a>
+                        <div class="header__sub-menu sub-menu">
+                            <div class="sub-menu__top">
+                                <div class="sub-menu__stars">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                </div>
+                                <p class="sub-menu__reviews">Нет отзывов</p>
+                            </div>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Мои объявления</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Мои отзывы</a></li>
+                                <li><a href="#">Избранное</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Сообщения</a></li>
+                                <li><a href="#">Уведомления</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Управление профилем</a></li>
+                                <li><a href="#">Защита профиля</a></li>
+                                <li><a href="#">Настройки</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <section class="estate section-top">
+                <div class="estate__container container">
+                    <a href="main.html" class="news-page__back page-back">
+                        <img src="./img/back.svg" alt="back">Вернуться на главную
+                    </a>
+                    <div class="estate__filter filter-modal">
+                        <div class="filter-modal__top">
+                            <p>Применение фильтров</p>
+                            <button class="filter__close">Закрыть модальное окно</button>
+                        </div>
+                        <div class="estate__filter-body">
+                            <div class="estate__filter-type">
+                                <button type="button" class="btn-reset btn">Новостройки</button>
+                            </div>
+                            <div class="estate__filter-rooms">
+                                <button type="button" class="btn-reset btn">Студия</button>
+                                <button type="button" class="btn-reset btn">1</button>
+                                <button type="button" class="btn-reset btn">2</button>
+                                <button type="button" class="btn-reset btn">3</button>
+                                <button type="button" class="btn-reset btn">4+</button>
+                            </div>
+                            <div class="estate__filter-price">
+                                <div class="estate__field">
+                                    <span class="price-label">Цена до</span> 
+                                    <input type="number"> руб.
+                                </div>
+                                <div class="estate__field">
+                                    <span class="price-label">Метро</span> 
+                                </div>
+                            </div>
+                            <div class="estate__filter-map">
+                                <button type="button" class="btn-reset btn"><img src="img/map.svg" alt="img" width="30" heigth="30" loading="lazy"> На карте</button>
+                            </div>
+                            <div class="estate__filter-show">
+                                <button type="button" class="btn-reset btn">Показать все 1234 предложения</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__columns">
+                        <div class="news__column">
+                            <div class="news__image">
+                                <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Съем 2-х комнатной квартиры</h3>
+                                <p class="news__text">"Вечерний Город"-одно из самых перспективных рекламных агентств России .Мы ценим ,что одним составом испытываем успех и моменты побед ,пройдя сквозь горы сложностей</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>2 комнаты</li>
+                                        <li>Можно с детьми</li>
+                                        <li>Без животных</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <div class="news__stars">
+                                            <img src="img/star-yellow.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                        </div>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__column">
+                            <div class="news__image">
+                                <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Съем 2-х комнатной квартиры</h3>
+                                <p class="news__text">"Вечерний Город"-одно из самых перспективных рекламных агентств России .Мы ценим ,что одним составом испытываем успех и моменты побед ,пройдя сквозь горы сложностей</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>2 комнаты</li>
+                                        <li>Можно с детьми</li>
+                                        <li>Без животных</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <div class="news__stars">
+                                            <img src="img/star-yellow.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                        </div>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__column">
+                            <div class="news__image">
+                                <img src="./img/news01.webp" alt="img" width="240" heigth="240" loading="lazy">
+                            </div>
+                            <div class="news__item">
+                                <h3 class="news__caption">Съем 2-х комнатной квартиры</h3>
+                                <p class="news__text">"Вечерний Город"-одно из самых перспективных рекламных агентств России .Мы ценим ,что одним составом испытываем успех и моменты побед ,пройдя сквозь горы сложностей</p>
+                                <div class="news__action">
+                                    <ul class="news__list list-reset">
+                                        <li>2 комнаты</li>
+                                        <li>Можно с детьми</li>
+                                        <li>Без животных</li>
+                                   </ul>
+                                    <div class="news__buttons">
+                                        <div class="news__stars">
+                                            <img src="img/star-yellow.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                            <img src="img/star-gray.svg" alt="star" width="24" heigth="24" loading="lazy">
+                                        </div>
+                                        <a href="#" class="news__button read">Перейти</a>
+                                    </div>
+                                </div>
+                                <div class="news__heart">
+                                    <img src="./img/heart.svg" alt="img" width="43" heigth="38" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="mobile-footer-menu">
+            <div class="header__body">
+
+                <nav class="header__menu">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="./work.html" class="header__link">
+                            <img src="./img/work.svg" alt="work">
+                            Работа</a></li>
+                        <li class="header__item"><a href="./estate.html" class="header__link">
+                            <img src="./img/home.svg" alt="home">
+                            Недвижимость</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">
+                            <img src="./img/news.svg" alt="news">
+                            Новости</a></li>
+                        <li class="header__item"><a href="./car.html" class="header__link">
+                            <img src="./img/auto.svg" alt="auto">
+                            Авто</a>
+                        </li>
+                        <li class="header__item"><a href="./account.html" class="header__link">
+                            <img src="./img/account.svg" alt="auto">
+                            Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/srcipt.js" type="module"></script>
+</body>
+</html>

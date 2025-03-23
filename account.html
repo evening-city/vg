@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="page__body">
+    
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="header__list list-reset">
+                            <li class="header__item"><a href="./work.html" class="header__link">
+                                <img src="./img/work.svg" alt="work">
+                                Работа</a></li>
+                            <li class="header__item"><a href="./estate.html" class="header__link">
+                                <img src="./img/home.svg" alt="home">
+                                Недвижимость</a></li>
+                            <li class="header__item"><a href="./news.html" class="header__link">
+                                <img src="./img/news.svg" alt="news">
+                                Новости</a></li>
+                            <li class="header__item"><a href="./car.html" class="header__link">
+                                <img src="./img/auto.svg" alt="auto">
+                                Авто</a>
+                            </li>
+                            <li class="header__item"><a href="./account.html" class="header__link">
+                                <img src="./img/account.svg" alt="auto">
+                                Аккаунт</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="header__avatar">
+                        <img src="img/avatar.svg" alt="avatar">
+                    </a>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <section class="account section-top">
+                <div class="account__container container">
+                    <div class="account__wrapper">
+                        <aside class="account__aside">
+                            <div class="account__top">
+                                <div class="account__avatar">
+                                    <div class="account__image">
+                                        <img src="img/avatar.svg" alt="img" width="138" heigth="138" loading="lazy">
+                                    </div>
+                                    <div class="account__small-img">
+                                        <img src="img/camera-dark.svg" alt="img" width="24" heigth="24" loading="lazy">
+                                    </div>
+                                </div>
+                                <h3 class="account__name">Ульяна Амец</h3>
+                                <div class="account__stars">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                </div>
+                                <p class="account__reviews">Нет отзывов</p>
+                            </div>
+                            <ul class="account__list list-reset">
+                                <li><a href="#">Мои объявления</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Мои отзывы</a></li>
+                                <li><a href="#">Избранное</a></li>
+                            </ul>
+                            <ul class="account__list list-reset">
+                                <li><a href="#">Сообщения</a></li>
+                                <li><a href="#">Уведомления</a></li>
+                            </ul>
+                            <ul class="account__list list-reset">
+                                <li><a href="#">Управление профилем</a></li>
+                                <li><a href="#">Защита профиля</a></li>
+                                <li><a href="#">Настройки</a></li>
+                            </ul>
+                        </aside>
+                        <div class="account__body">
+                            <h2 class="account__title">Управление профилем</h2>
+                            <div class="account__controls">
+                                <button type="button" data-click-btn="account__item-1" class="account__btn active btn-reset">Основные данные</button>
+                                <button type="button" data-click-btn="account__item-2" class="account__btn btn-reset">Вид профиля</button>
+                            </div>
+                            <div  data-tab-content="account__item-1"class="account__item active">
+                                <div class="account__column">
+                                    <h3 class="account__name">Ульяна Амец</h3>
+                                    <p class="account__category">Частное лицо</p>
+                                    <div class="account__approve">
+                                        <img src="img/approve.svg" alt="img" width="26" heigth="26" loading="lazy">Телефон подтвежден</div>
+                                    <p class="account__phone">+7 999 123-34-45</p>
+                                </div>
+                                <div class="account__avatar">
+                                    <div class="account__image">
+                                        <img src="img/avatar.svg" alt="img" loading="lazy">
+                                    </div>
+                                    <p>Поменять фото</p>
+                                    <div class="account__small-img">
+                                        <img src="img/camera-dark.svg" alt="img" width="38" heigth="38" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div  data-tab-content="account__item-2"class="account__item">
+                                <div class="account__avatar">
+                                    <div class="account__image">
+                                        <img src="img/avatar.svg" alt="img" loading="lazy">
+                                    </div>
+                                    <p>Поменять фото</p>
+                                    <div class="account__small-img">
+                                        <img src="img/camera-dark.svg" alt="img" width="38" heigth="38" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="mobile-footer-menu">
+            <div class="header__body">
+
+                <nav class="header__menu">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="./work.html" class="header__link">
+                            <img src="./img/work.svg" alt="work">
+                            Работа</a></li>
+                        <li class="header__item"><a href="./estate.html" class="header__link">
+                            <img src="./img/home.svg" alt="home">
+                            Недвижимость</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">
+                            <img src="./img/news.svg" alt="news">
+                            Новости</a></li>
+                        <li class="header__item"><a href="./car.html" class="header__link">
+                            <img src="./img/auto.svg" alt="auto">
+                            Авто</a>
+                        </li>
+                        <li class="header__item"><a href="./account.html" class="header__link">
+                            <img src="./img/account.svg" alt="auto">
+                            Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/srcipt.js" type="module"></script>
+</body>
+</html>

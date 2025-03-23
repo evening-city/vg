@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="page__body">
+    
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="header__list list-reset">
+                            <li class="header__item"><a href="./work.html" class="header__link">
+                                <img src="./img/work.svg" alt="work">
+                                Работа</a></li>
+                            <li class="header__item"><a href="./estate.html" class="header__link">
+                                <img src="./img/home.svg" alt="home">
+                                Недвижимость</a></li>
+                            <li class="header__item"><a href="./news.html" class="header__link">
+                                <img src="./img/news.svg" alt="news">
+                                Новости</a></li>
+                            <li class="header__item"><a href="./car.html" class="header__link">
+                                <img src="./img/auto.svg" alt="auto">
+                                Авто</a>
+                            </li>
+                            <li class="header__item"><a href="./account.html" class="header__link">
+                                <img src="./img/account.svg" alt="auto">
+                                Аккаунт</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__wrapper">
+                        <a href="./account.html" class="header__avatar">
+                            <img src="img/avatar.svg" alt="avatar">
+                        </a>
+                        <div class="header__sub-menu sub-menu">
+                            <div class="sub-menu__top">
+                                <div class="sub-menu__stars">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                    <img src="img/star-gray.svg" alt="img" width="22" heigth="22" loading="lazy">
+                                </div>
+                                <p class="sub-menu__reviews">Нет отзывов</p>
+                            </div>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Мои объявления</a></li>
+                                <li><a href="#">Заказы</a></li>
+                                <li><a href="#">Мои отзывы</a></li>
+                                <li><a href="#">Избранное</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Сообщения</a></li>
+                                <li><a href="#">Уведомления</a></li>
+                            </ul>
+                            <ul class="sub-menu__list list-reset">
+                                <li><a href="#">Управление профилем</a></li>
+                                <li><a href="#">Защита профиля</a></li>
+                                <li><a href="#">Настройки</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <main class="main">
+            <article class="primary section-top">
+                <div class="primary__container container">
+                    <div class="primary__body">
+                        <p class="primary__text">Вечерний</p>
+                        <h2 class="primary__title">Челябинск</h2>
+                        <div class="primary__buttons">
+                            <a href="#" class="primary__button">
+                                <img src="./img/play.svg" alt="auto">Смотреть видеогид
+                            </a>
+                            <a href="#" class="primary__button city-name">
+                                <img src="./img/tree.svg" alt="auto">Выбрать область
+                            </a>
+                            <div class="service__city city">
+                                <div class="city__item">
+                                    <div class="city__input">
+                                        <input type="text" class="input" placeholder="Поиск">
+                                    </div>
+                                    <div class="city__buttons">
+                                        <button class="city__button btn-reset" type="button" data-city="volgograd">Волгоград</button>
+                                        <button class="city__button btn-reset" type="button" data-city="perm">Пермь</button>
+                                        <button class="city__button btn-reset" type="button" data-city="voronezh">Воронеж</button>
+                                        <button class="city__button btn-reset" type="button" data-city="omsk">Омск</button>
+                                        <button class="city__button btn-reset" type="button" data-city="krasnodar">Краснодар</button>
+                                        <button class="city__button btn-reset" type="button" data-city="rostov">Ростов</button>
+                                        <button class="city__button btn-reset" type="button" data-city="samara">Самара</button>
+                                        <button class="city__button btn-reset" type="button" data-city="nizhni novgorod">Нижний Новгород</button>
+                                        <button class="city__button btn-reset" type="button" data-city="krasnoyarsk">Красноярск</button>
+                                        <button class="city__button btn-reset" type="button" data-city="ekaterinburg">Екатеринбург</button>
+                                        <button class="city__button btn-reset" type="button" data-city="novosibirsk">Новосибирск</button>
+                                        <button class="city__button btn-reset" type="button" data-city="ufa">Уфа</button>
+                                        <button class="city__button btn-reset" type="button" data-city="kazan">Казань</button>
+                                        <button class="city__button btn-reset" type="button" data-city="spb">Санкт-Петербург</button>
+                                        <button class="city__button btn-reset" type="button" data-city="moscow">Москва</button>
+                                        <button class="city__button btn-reset" type="button" data-city="shymkent">Шымкент</button>
+                                        <button class="city__button btn-reset" type="button" data-city="almaty">Алмата</button>
+                                        <button class="city__button btn-reset" type="button" data-city="astana">Астана</button>
+                                        <button class="city__button btn-reset" type="button" data-city="chelyabinsk">Челябинск</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <section class="service">
+                <div class="service__container container">
+                    <div class="service__swiper swiper">
+                        <div class="service__columns swiper-wrapper">
+                            <div class="service__wrapper swiper-slide">
+                                <a href="food.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/apple.svg" alt="auto">
+                                        Еда/Доставка
+                                    </div>
+                                </a>
+                                <a href="goods.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/sun.svg" alt="auto">
+                                        Товары
+                                    </div>
+                                </a>
+                                <a href="services.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/headset.svg" alt="auto">
+                                        Услуги
+                                    </div>
+                                </a>
+                                <a href="beauty.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/fi-sr-confetti.svg" alt="auto">
+                                        Красота
+                                    </div>
+                                </a>
+                                <a href="health.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/syringe.svg" alt="auto">
+                                        Здоровье
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service__wrapper swiper-slide">
+                                <a href="sport.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/basketball.svg" alt="auto">
+                                        Спорт
+                                    </div>
+                                </a>
+                                <a href="party.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/balloons.svg" alt="auto">
+                                        Развлечения
+                                    </div>
+                                </a>
+                                <a href="holiday.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/cake.svg" alt="auto">
+                                        Праздники
+                                    </div>
+                                </a>
+                                <a href="film.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/play-orange.svg" alt="auto">
+                                        Культура / Кино
+                                    </div>
+                                </a>
+                                <a href="auto.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/car-orange.svg" alt="auto">
+                                        Авто / Мото
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service__wrapper swiper-slide">
+                                <a href="house.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/apple.svg" alt="auto">
+                                        Недвижимость
+                                    </div>
+                                </a>
+                                <a href="finance.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/histogram.svg" alt="auto">
+                                        Финансы
+                                    </div>
+                                </a>
+                                <a href="education.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/school.svg" alt="auto">
+                                        Обучение
+                                    </div>
+                                </a>
+                                <a href="hotel.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/sun.svg" alt="auto">
+                                        Гостиницы
+                                    </div>
+                                </a>
+                                <a href="travel.html" class="service__column">
+                                    <div class="service__item">
+                                        <img src="./img/world.svg" alt="auto">
+                                        Туризм
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service__pagination d-flex">
+                            <button class="service__prev slider-btn-prev swiper-button-prev btn-reset d-flex f-c"></button>
+                            <button class="service__next slider-btn-next swiper-button-next btn-reset d-flex f-c"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="mobile-footer-menu">
+            <div class="header__body">
+
+                <nav class="header__menu">
+                    <ul class="header__list list-reset">
+                        <li class="header__item"><a href="./work.html" class="header__link">
+                            <img src="./img/work.svg" alt="work">
+                            Работа</a></li>
+                        <li class="header__item"><a href="./estate.html" class="header__link">
+                            <img src="./img/home.svg" alt="home">
+                            Недвижимость</a></li>
+                        <li class="header__item"><a href="./news.html" class="header__link">
+                            <img src="./img/news.svg" alt="news">
+                            Новости</a></li>
+                        <li class="header__item"><a href="./car.html" class="header__link">
+                            <img src="./img/auto.svg" alt="auto">
+                            Авто</a>
+                        </li>
+                        <li class="header__item"><a href="./account.html" class="header__link">
+                            <img src="./img/account.svg" alt="auto">
+                            Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/srcipt.js" type="module"></script>
+</body>
+</html>
