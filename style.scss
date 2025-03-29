@@ -1063,6 +1063,7 @@ svg {
     &__avatar {
         flex: 0 0 #{fluid(64px, 84px, 768px, 1600px)};
         height:#{fluid(64px, 84px, 768px, 1600px)};
+        background-color: var(--text-secondary);
         display: flex;
         justify-content:center;
         align-items: center;

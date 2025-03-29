@@ -1024,6 +1024,7 @@ svg {
 .header__avatar {
   flex: 0 0 clamp(4rem, 2.4038461538vw + 2.8461538462rem, 5.25rem);
   height: clamp(4rem, 2.4038461538vw + 2.8461538462rem, 5.25rem);
+  background-color: var(--text-secondary);
   display: flex;
   justify-content: center;
   align-items: center;
