@@ -1064,6 +1064,9 @@ svg {
   line-height: 1;
   text-align: center;
 }
+.primary__controls {
+  overflow: visible !important;
+}
 .primary__controls .swiper-wrapper {
   display: flex;
   width: 100%;

@@ -1104,6 +1104,7 @@ svg {
     }
 
     &__controls{
+        overflow: visible !important;
         .swiper-wrapper{
             display: flex;
             width: 100%;
