@@ -1101,6 +1101,18 @@ svg {
         margin-bottom: #{fluid(32px, 60px, 375px, 1600px)};
         line-height: 1;
         text-align: center;
+        position: relative;
+        sup{
+            font-size: 20px;
+            color: rgba(168, 168, 168, 1);
+            position: absolute;
+            top: 20px;
+            right: 0;
+            @include small-tablet(){
+                font-size: 16px;
+                top: 0;
+            }
+        }
     }
 
     &__controls{
@@ -2965,3 +2977,16 @@ svg {
     
 }
 
+.recomendation{
+    margin-bottom: 32px;
+    color: #fff;
+    &__columns{
+        display: flex;
+        gap: 8px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .car__top{
+        margin-bottom: 8px;
+    }
+}

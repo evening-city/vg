@@ -1063,6 +1063,20 @@ svg {
   margin-bottom: clamp(2rem, 2.2857142857vw + 1.4642857143rem, 3.75rem);
   line-height: 1;
   text-align: center;
+  position: relative;
+}
+.primary__title sup {
+  font-size: 20px;
+  color: rgb(168, 168, 168);
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+@media (max-width: 768px) {
+  .primary__title sup {
+    font-size: 16px;
+    top: 0;
+  }
 }
 .primary__controls {
   overflow: visible !important;
@@ -2781,4 +2795,17 @@ svg {
 }
 .login__button:hover {
   background-color: var(--bg-city-hv);
+}
+
+.recomendation {
+  margin-bottom: 32px;
+  color: #fff;
+}
+.recomendation__columns {
+  display: flex;
+  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.recomendation .car__top {
+  margin-bottom: 8px;
 }
