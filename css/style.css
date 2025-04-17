@@ -2802,9 +2802,84 @@ svg {
   color: #fff;
 }
 .recomendation__columns {
-  display: flex;
+  display: grid;
   gap: 8px;
+  row-gap: 16px;
   grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1024px) {
+  .recomendation__columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .recomendation__columns {
+    grid-template-columns: 1fr;
+  }
+}
+.recomendation__search {
+  background-color: var(--text-secondary);
+  border-radius: 20px;
+  padding: clamp(1rem, 1.1428571429vw + 0.7321428571rem, 1.875rem) clamp(1.25rem, 2.2857142857vw + 0.7142857143rem, 3rem);
+  margin-bottom: 32px;
+}
+@media (max-width: 768px) {
+  .recomendation__search {
+    border-radius: 10px;
+  }
+}
+.recomendation__title {
+  color: var(--text-main);
+  margin-bottom: 18px;
+  font-size: 30px;
+}
+.recomendation__inputs {
+  display: grid;
+  align-items: center;
+  gap: 18px;
+  grid-template-columns: 70% 30%;
+  margin-bottom: 18px;
+}
+@media (max-width: 1024px) {
+  .recomendation__inputs {
+    grid-template-columns: 60% 40%;
+  }
+}
+@media (max-width: 768px) {
+  .recomendation__inputs {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+.recomendation__input input {
+  padding: 16px;
+  border-radius: 10px;
+}
+.recomendation__buttons {
+  display: flex;
+  gap: 18px;
+}
+@media (max-width: 768px) {
+  .recomendation__buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+.recomendation__button {
+  border-radius: 10px;
+  padding: 16px;
+}
+.recomendation__button-show {
+  background-color: var(--bg-city);
+}
+.recomendation__button-show:hover {
+  background-color: var(--bg-city-hv);
+}
+.recomendation__button-map {
+  background-color: var(--text-gray);
+}
+.recomendation__button-map:hover {
+  background-color: var(--text-gray-2);
 }
 .recomendation .car__top {
   margin-bottom: 8px;

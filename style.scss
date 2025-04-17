@@ -2981,9 +2981,82 @@ svg {
     margin-bottom: 32px;
     color: #fff;
     &__columns{
-        display: flex;
+        display: grid;
         gap: 8px;
+        row-gap: 16px;
         grid-template-columns: repeat(3, 1fr);
+        @include tablet(){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include mobile(){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__search {
+        background-color: var(--text-secondary);
+        border-radius: 20px;
+        padding: #{fluid(16px, 30px, 375px, 1600px)} #{fluid(20px, 48px, 375px, 1600px)};
+        margin-bottom: 32px;
+        @include small-tablet(){
+            border-radius: 10px;
+        }
+    }
+
+    &__title {
+        color: var(--text-main);
+        margin-bottom: 18px;
+        font-size: 30px;
+    }
+
+    &__inputs {
+        display: grid;
+        align-items: center;
+        gap: 18px;
+        grid-template-columns: 70% 30%;
+        margin-bottom: 18px;
+        @include tablet(){
+            grid-template-columns: 60% 40%;
+        }
+        @include small-tablet(){
+            grid-template-columns: 1fr;
+            gap: 8px;
+        }
+    }
+
+    &__input {
+        input{
+            padding: 16px;
+            border-radius: 10px;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        gap: 18px;
+        @include small-tablet(){
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+
+    &__button {
+        border-radius: 10px;
+        padding: 16px;
+    }
+
+    &__button-show {
+        background-color: var(--bg-city);
+        &:hover{
+            background-color: var(--bg-city-hv);
+        }
+    }
+
+    &__button-map {
+        background-color: var(--text-gray);
+        &:hover{
+            background-color: var(--text-gray-2);
+        }
     }
 
     .car__top{
